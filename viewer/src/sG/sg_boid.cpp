@@ -226,13 +226,6 @@ void sgBoid::checkForCollisions(const smVec3& worldMin, const smVec3& worldMax)
 
     }
 
-    float a, b;
-
-    if (a == b)
-    {
-
-    }
-
     const float epsilon = 0.05f;
     if (_pos.X < worldMin.X)
     {
