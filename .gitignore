@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 #Don't ignore thesed
-!sassytem/inc/platform/win32/*
+!sassystem/inc/platform/win32/*
