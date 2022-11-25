@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#Don't ignore these
+!/sassytem/inc/platform/win32/*
