@@ -397,5 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-#Don't ignore thesed
-!sassystem/inc/platform/win32/*
+#Don't ignore these
+!sassystem/inc/platform/win32/sas_pl_timer.h
