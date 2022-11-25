@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sassystem">
+      <UniqueIdentifier>{D1216E74-3D8C-22EB-86CA-D390F2730040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc">
+      <UniqueIdentifier>{67E2905F-D3A2-0C96-9CDD-5513085D5172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc\platform">
+      <UniqueIdentifier>{E83BB873-D435-E1C5-BDA2-77D6A93B4732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc\platform\posix">
+      <UniqueIdentifier>{77B143AB-636C-3357-0C24-ACA1F8BD7DE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc\platform\win32">
+      <UniqueIdentifier>{37F6BEAB-23B1-AE57-CC68-27A2B802F9E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc\sys">
+      <UniqueIdentifier>{022AAEA8-6E40-AC3E-B7B7-3760230D7DC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc\threading">
+      <UniqueIdentifier>{5928EA04-C55F-329C-CE69-96BF3A205995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\inc\utils">
+      <UniqueIdentifier>{7409028D-E06A-DF9A-69D8-254DD538165A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\src">
+      <UniqueIdentifier>{750D915F-E1CD-0C96-AA08-561316885172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\src\platform">
+      <UniqueIdentifier>{B6B6AC72-A2B0-D5C4-8B1D-6CD577B63B31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\src\platform\posix">
+      <UniqueIdentifier>{C58E8843-B149-78EF-5A01-F139469BC27F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\src\platform\win32">
+      <UniqueIdentifier>{85D30344-718E-F3EF-1A46-6C3A06E03D80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\src\sys">
+      <UniqueIdentifier>{102CC9B3-7C42-C749-C5B9-526B310F98D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sassystem\src\threading">
+      <UniqueIdentifier>{E7FC6DE2-5334-B679-5C3E-1A9DC8F4DC72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sassystem\inc\ss_export.h">
+      <Filter>sassystem\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\ss_main.h">
+      <Filter>sassystem\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\platform\posix\sas_pl_timer.h">
+      <Filter>sassystem\inc\platform\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\platform\win32\sas_pl_timer.h">
+      <Filter>sassystem\inc\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\sys\sas_mem.h">
+      <Filter>sassystem\inc\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\sys\sas_scratchmem.h">
+      <Filter>sassystem\inc\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\sys\sas_stackalloc.h">
+      <Filter>sassystem\inc\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\threading\sas_atomic.h">
+      <Filter>sassystem\inc\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\threading\sas_jobmng.h">
+      <Filter>sassystem\inc\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\threading\sas_mutex.h">
+      <Filter>sassystem\inc\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\threading\sas_semaphore.h">
+      <Filter>sassystem\inc\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\threading\sas_spinlock.h">
+      <Filter>sassystem\inc\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\threading\sas_thread.h">
+      <Filter>sassystem\inc\threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\inc\utils\sas_timer.h">
+      <Filter>sassystem\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\src\ss_core.h">
+      <Filter>sassystem\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sassystem\src\ss_pch.h">
+      <Filter>sassystem\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sassystem\src\ss_core.cpp">
+      <Filter>sassystem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\ss_main.cpp">
+      <Filter>sassystem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\ss_pch.cpp">
+      <Filter>sassystem\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\platform\posix\sas_log.cpp">
+      <Filter>sassystem\src\platform\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\platform\posix\sas_timer.cpp">
+      <Filter>sassystem\src\platform\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\platform\win32\sas_log.cpp">
+      <Filter>sassystem\src\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\platform\win32\sas_timer.cpp">
+      <Filter>sassystem\src\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\sys\sas_mem.cpp">
+      <Filter>sassystem\src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\sys\sas_scratchmem.cpp">
+      <Filter>sassystem\src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\sys\sas_stackalloc.cpp">
+      <Filter>sassystem\src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\threading\sas_atomic.cpp">
+      <Filter>sassystem\src\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\threading\sas_jobmng.cpp">
+      <Filter>sassystem\src\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\threading\sas_mutex.cpp">
+      <Filter>sassystem\src\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\threading\sas_semaphore.cpp">
+      <Filter>sassystem\src\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\threading\sas_spinlock.cpp">
+      <Filter>sassystem\src\threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sassystem\src\threading\sas_thread.cpp">
+      <Filter>sassystem\src\threading</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

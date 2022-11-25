@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sasMaths", "sasMaths.vcxproj", "{34831360-BCDB-11E0-962B-F8F9F0FCFAF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sasSystem", "sasSystem.vcxproj", "{34831360-BCDB-11E0-962B-6689668C9A43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sasUtils", "sasUtils.vcxproj", "{34831360-BCDB-11E0-962B-0809668C9A43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34831360-BCDB-11E0-962B-6689668C9A43} = {34831360-BCDB-11E0-962B-6689668C9A43}
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3} = {34831360-BCDB-11E0-962B-F8F9F0FCFAF3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsas", "libsas.vcxproj", "{34831360-BCDB-11E0-962B-0809500C9A43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34831360-BCDB-11E0-962B-0809668C9A43} = {34831360-BCDB-11E0-962B-0809668C9A43}
+		{34831360-BCDB-11E0-962B-6689668C9A43} = {34831360-BCDB-11E0-962B-6689668C9A43}
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3} = {34831360-BCDB-11E0-962B-F8F9F0FCFAF3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewer", "viewer.vcxproj", "{34831360-BCDB-11E0-962B-0826200C9A21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34831360-BCDB-11E0-962B-0809500C9A43} = {34831360-BCDB-11E0-962B-0809500C9A43}
+		{34831360-BCDB-11E0-962B-0809668C9A43} = {34831360-BCDB-11E0-962B-0809668C9A43}
+		{34831360-BCDB-11E0-962B-6689668C9A43} = {34831360-BCDB-11E0-962B-6689668C9A43}
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3} = {34831360-BCDB-11E0-962B-F8F9F0FCFAF3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3}.Debug|Win32.Build.0 = Debug|Win32
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3}.Release|Win32.ActiveCfg = Release|Win32
+		{34831360-BCDB-11E0-962B-F8F9F0FCFAF3}.Release|Win32.Build.0 = Release|Win32
+		{34831360-BCDB-11E0-962B-6689668C9A43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34831360-BCDB-11E0-962B-6689668C9A43}.Debug|Win32.Build.0 = Debug|Win32
+		{34831360-BCDB-11E0-962B-6689668C9A43}.Release|Win32.ActiveCfg = Release|Win32
+		{34831360-BCDB-11E0-962B-6689668C9A43}.Release|Win32.Build.0 = Release|Win32
+		{34831360-BCDB-11E0-962B-0809668C9A43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34831360-BCDB-11E0-962B-0809668C9A43}.Debug|Win32.Build.0 = Debug|Win32
+		{34831360-BCDB-11E0-962B-0809668C9A43}.Release|Win32.ActiveCfg = Release|Win32
+		{34831360-BCDB-11E0-962B-0809668C9A43}.Release|Win32.Build.0 = Release|Win32
+		{34831360-BCDB-11E0-962B-0809500C9A43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34831360-BCDB-11E0-962B-0809500C9A43}.Debug|Win32.Build.0 = Debug|Win32
+		{34831360-BCDB-11E0-962B-0809500C9A43}.Release|Win32.ActiveCfg = Release|Win32
+		{34831360-BCDB-11E0-962B-0809500C9A43}.Release|Win32.Build.0 = Release|Win32
+		{34831360-BCDB-11E0-962B-0826200C9A21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34831360-BCDB-11E0-962B-0826200C9A21}.Debug|Win32.Build.0 = Debug|Win32
+		{34831360-BCDB-11E0-962B-0826200C9A21}.Release|Win32.ActiveCfg = Release|Win32
+		{34831360-BCDB-11E0-962B-0826200C9A21}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+{
+	"ShaderFlags" : {
+		"DEPTH" : 1,
+    "STEREO" : 1
+	},
+	"Families" : [ 
+      "default",
+      "screenCopy",
+      "lightPass",
+      "compositePass",
+      "motionBlur",
+      "renderFrustum",
+      "renderLine",
+      "deferredShadows",
+      "godrays",
+      "fxaa",
+      "ovrDistortion"
+	]
+}

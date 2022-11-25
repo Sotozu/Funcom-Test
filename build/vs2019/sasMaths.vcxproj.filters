@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sasmaths">
+      <UniqueIdentifier>{89CB43DC-7598-9EE7-9EB1-8C8F8ADDD375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasmaths\inc">
+      <UniqueIdentifier>{1FA814A9-0B0B-A44D-B490-DC03A0D26FD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasmaths\src">
+      <UniqueIdentifier>{2DD314A9-1936-A44D-C2BB-DC03AEFD6FD0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sasmaths\inc\sasMaths.h">
+      <Filter>sasmaths\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasmaths\inc\sm_aabb.h">
+      <Filter>sasmaths\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasmaths\inc\sm_common.h">
+      <Filter>sasmaths\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasmaths\inc\sm_euler.h">
+      <Filter>sasmaths\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasmaths\inc\sm_matrix.h">
+      <Filter>sasmaths\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasmaths\inc\sm_vector.h">
+      <Filter>sasmaths\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sasmaths\src\sm_aabb.cpp">
+      <Filter>sasmaths\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasmaths\src\sm_euler.cpp">
+      <Filter>sasmaths\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasmaths\src\sm_matrix.cpp">
+      <Filter>sasmaths\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasmaths\src\sm_vector.cpp">
+      <Filter>sasmaths\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+	"file_dx11" : "deferredShadows.fx",
+	"func_vs" : "main_vs",
+	"func_ps" : "main_ps",
+		
+	"ShaderFlags" : {
+	}
+}

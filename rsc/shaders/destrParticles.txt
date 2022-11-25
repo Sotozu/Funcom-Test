@@ -1,0 +1,7 @@
+{
+	"file_dx11" : "destrParticles.fx",
+	"func_cs" : "main_cs",
+		
+	"ShaderFlags" : {
+	}
+}

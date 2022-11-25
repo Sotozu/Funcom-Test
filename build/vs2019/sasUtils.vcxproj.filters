@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sasutils">
+      <UniqueIdentifier>{7DCCDEDC-6999-39E8-92B2-27907EDE6E76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\inc">
+      <UniqueIdentifier>{13036F90-FF65-FE34-A8EB-36EB942DCAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\inc\utils">
+      <UniqueIdentifier>{20FB186C-0CDF-D9C1-753F-D4146142C443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\src">
+      <UniqueIdentifier>{212E6F90-0D91-FE34-B616-37EBA258CAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\src\platform">
+      <UniqueIdentifier>{E2588886-4EC5-4381-17B9-DBDE83E465E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\src\platform\posix">
+      <UniqueIdentifier>{F1211825-5D2F-460B-E615-42F6522212C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\src\platform\win32">
+      <UniqueIdentifier>{B1669325-1D74-C10B-A65A-BDF612678DC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sasutils\src\utils">
+      <UniqueIdentifier>{AEB8FCA9-9A9C-BDFF-03FD-B752EFFFA781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sasutils\inc\su_export.h">
+      <Filter>sasutils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\su_main.h">
+      <Filter>sasutils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_camera.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_color.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_culling.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_delegate.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_event.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_file.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_frustum.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_hash.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_meta.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_path.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_refcount.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_reflection.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_singleton.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_sort.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_stringid.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\inc\utils\sas_virtual_file.h">
+      <Filter>sasutils\inc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sasutils\src\su_pch.h">
+      <Filter>sasutils\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sasutils\src\su_main.cpp">
+      <Filter>sasutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\su_pch.cpp">
+      <Filter>sasutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\platform\posix\sas_log.cpp">
+      <Filter>sasutils\src\platform\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\platform\win32\sas_log.cpp">
+      <Filter>sasutils\src\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_camera.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_culling.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_file.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_frustum.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_hash.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_path.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_reflection.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_sort.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_stringid.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sasutils\src\utils\sas_virtual_file.cpp">
+      <Filter>sasutils\src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

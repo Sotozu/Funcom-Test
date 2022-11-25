@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34831360-BCDB-11E0-962B-0826200C9A21}</ProjectGuid>
+    <RootNamespace>viewer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\vs2019\</OutDir>
+    <IntDir>obj\Debug\viewer\</IntDir>
+    <TargetName>viewer_d</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\vs2019\</OutDir>
+    <IntDir>obj\Release\viewer\</IntDir>
+    <TargetName>viewer</TargetName>
+    <TargetExt>.exe</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\sasmaths\inc;..\..\sassystem\inc;..\..\sassystem\inc\platform\win32;..\..\sasutils\inc;..\..\sasutils\inc\platform\win32;..\..\libsas\inc;..\..\viewer\src\sG;..\..\external\anttweakbar\include;..\..\external\jansson\inc;..\..\viewer\Include;..\..\external\libovr-0.4.4\Include;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\um;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\shared;..\..\external\assimp\include;..\..\external\devil\inc;..\..\external\nvtt\inc;..\..\external\fmod\1.06.01\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;sasDEBUG;sas_RSCDIR="c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/";sas_SHADERDIR="c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/shaders/";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>sg_pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(IntDir)viewer_d.compile.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;sasDEBUG;sas_RSCDIR=\"c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/\";sas_SHADERDIR=\"c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/shaders/\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\sasmaths\inc;..\..\sassystem\inc;..\..\sassystem\inc\platform\win32;..\..\sasutils\inc;..\..\sasutils\inc\platform\win32;..\..\libsas\inc;..\..\viewer\src\sG;..\..\external\anttweakbar\include;..\..\external\jansson\inc;..\..\viewer\Include;..\..\external\libovr-0.4.4\Include;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\um;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\shared;..\..\external\assimp\include;..\..\external\devil\inc;..\..\external\nvtt\inc;..\..\external\fmod\1.06.01\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)viewer_d.pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>AntTweakBar_d.lib;xinput.lib;winmm.lib;libovrd.lib;ws2_32.lib;d3d11.lib;dxgi.lib;d3dcompiler.lib;assimp_d.lib;jansson_d.lib;DevIL_d.lib;nvtt_d.lib;fmodL_vc.lib;;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\external\anttweakbar\lib;..\..\external\jansson\lib;..\..\viewer\Lib\x86;..\..\external\libovr-0.4.4\Lib\Win32;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Lib\win8\um\x86;..\..\external\assimp\lib;..\..\external\devil\lib;..\..\external\nvtt\lib;..\..\external\fmod\1.06.01\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)viewer_d.exe</OutputFile>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\sasmaths\inc;..\..\sassystem\inc;..\..\sassystem\inc\platform\win32;..\..\sasutils\inc;..\..\sasutils\inc\platform\win32;..\..\libsas\inc;..\..\viewer\src\sG;..\..\external\anttweakbar\include;..\..\external\jansson\inc;..\..\viewer\Include;..\..\external\libovr-0.4.4\Include;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\um;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\shared;..\..\external\assimp\include;..\..\external\devil\inc;..\..\external\nvtt\inc;..\..\external\fmod\1.06.01\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;sas_RSCDIR="c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/";sas_SHADERDIR="c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/shaders/";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>sg_pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(IntDir)viewer.compile.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;sas_RSCDIR=\"c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/\";sas_SHADERDIR=\"c:/Dev/Funcom/FuncomBoidsTestv2_Med_vs2022/sasBoidsTest/rsc/shaders/\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\sasmaths\inc;..\..\sassystem\inc;..\..\sassystem\inc\platform\win32;..\..\sasutils\inc;..\..\sasutils\inc\platform\win32;..\..\libsas\inc;..\..\viewer\src\sG;..\..\external\anttweakbar\include;..\..\external\jansson\inc;..\..\viewer\Include;..\..\external\libovr-0.4.4\Include;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\um;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Include\shared;..\..\external\assimp\include;..\..\external\devil\inc;..\..\external\nvtt\inc;..\..\external\fmod\1.06.01\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)viewer.pdb</ProgramDatabaseFile>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>AntTweakBar.lib;xinput.lib;winmm.lib;libovr.lib;ws2_32.lib;d3d11.lib;dxgi.lib;d3dcompiler.lib;assimp.lib;jansson.lib;DevIL.lib;nvtt.lib;fmod_vc.lib;;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\external\anttweakbar\lib;..\..\external\jansson\lib;..\..\viewer\Lib\x86;..\..\external\libovr-0.4.4\Lib\Win32;..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.0\Lib\win8\um\x86;..\..\external\assimp\lib;..\..\external\devil\lib;..\..\external\nvtt\lib;..\..\external\fmod\1.06.01\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)viewer.exe</OutputFile>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\viewer\src\sG\Octree.h" />
+    <ClInclude Include="..\..\viewer\src\sG\sg_boid.h" />
+    <ClInclude Include="..\..\viewer\src\sG\sg_boidMng.h" />
+    <ClInclude Include="..\..\viewer\src\sG\sg_cameraMng.h" />
+    <ClInclude Include="..\..\viewer\src\sG\sg_gameMng.h" />
+    <ClInclude Include="..\..\viewer\src\sG\sg_pch.h" />
+    <ClInclude Include="..\..\viewer\src\sG\input\sg_controllerinputmng.h" />
+    <ClInclude Include="..\..\viewer\src\sG\input\sg_inputmng.h" />
+    <ClInclude Include="..\..\viewer\src\sG\input\sg_ovrinputmng.h" />
+    <ClInclude Include="..\..\viewer\src\sG\ThreadPool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\viewer\src\main_osx.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\main.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_boid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_boidMng.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_cameraMng.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_gameMng.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\input\sg_controllerinputmng.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\input\sg_inputmng.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\input\sg_ovrinputmng.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\ThreadPool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="libsas.vcxproj">
+      <Project>{34831360-BCDB-11E0-962B-0809500C9A43}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sasUtils.vcxproj">
+      <Project>{34831360-BCDB-11E0-962B-0809668C9A43}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sasSystem.vcxproj">
+      <Project>{34831360-BCDB-11E0-962B-6689668C9A43}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sasMaths.vcxproj">
+      <Project>{34831360-BCDB-11E0-962B-F8F9F0FCFAF3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+	"file_dx11" : "screenCopy.fx",
+	"file_opengl" : "opengl/screenCopy.glsl",
+	"func_vs" : "main_vs",
+	"func_ps" : "main_ps",
+		
+	"ShaderFlags" : {
+	"QUAD_OVERRIDE" : 1,
+  "COL_RESCALE" : 1,
+  "FLAT_COL" : 1
+	}
+}

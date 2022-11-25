@@ -1,0 +1,10 @@
+{
+	"file_dx11" : "lightPass.fx",
+	"file_opengl" : "opengl/lightPass.glsl",
+	"func_cs" : "main_cs",
+		
+	"ShaderFlags" : {
+  "STEREO_LEFT_EYE" : 1,
+  "STEREO_RIGHT_EYE" : 1
+	}
+}

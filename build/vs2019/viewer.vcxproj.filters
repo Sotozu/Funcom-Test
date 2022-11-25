@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="viewer">
+      <UniqueIdentifier>{D735C522-C3D7-EFF8-AC92-034D98D37649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\src">
+      <UniqueIdentifier>{7BB4BECB-676C-0019-D073-D974BC4A9B09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\src\sG">
+      <UniqueIdentifier>{113DF77D-7DFD-72B4-4638-BC31B2B7B790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\src\sG\input">
+      <UniqueIdentifier>{3DEA9376-A94B-7184-32B9-B7369E19A843}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\viewer\src\sG\sg_boid.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\sg_boidMng.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\sg_cameraMng.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\sg_gameMng.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\sg_pch.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\input\sg_controllerinputmng.h">
+      <Filter>viewer\src\sG\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\input\sg_inputmng.h">
+      <Filter>viewer\src\sG\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\input\sg_ovrinputmng.h">
+      <Filter>viewer\src\sG\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\Octree.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\viewer\src\sG\ThreadPool.h">
+      <Filter>viewer\src\sG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\viewer\src\main_osx.cpp">
+      <Filter>viewer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\main.cpp">
+      <Filter>viewer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_boid.cpp">
+      <Filter>viewer\src\sG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_boidMng.cpp">
+      <Filter>viewer\src\sG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_cameraMng.cpp">
+      <Filter>viewer\src\sG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_gameMng.cpp">
+      <Filter>viewer\src\sG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\sg_pch.cpp">
+      <Filter>viewer\src\sG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\input\sg_controllerinputmng.cpp">
+      <Filter>viewer\src\sG\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\input\sg_inputmng.cpp">
+      <Filter>viewer\src\sG\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\input\sg_ovrinputmng.cpp">
+      <Filter>viewer\src\sG\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\viewer\src\sG\ThreadPool.cpp">
+      <Filter>viewer\src\sG</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

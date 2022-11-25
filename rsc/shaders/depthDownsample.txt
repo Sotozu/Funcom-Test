@@ -1,0 +1,11 @@
+{
+	"file_dx11" : "depthDownsample.fx",
+	"file_opengl" : "opengl/depthDownsample.glsl",
+	"func_cs" : "main_cs",
+		
+	"ShaderFlags" : {
+    "MIN" : 1,
+    "AVG" : 1,
+    "MAX" : 1
+	}
+}

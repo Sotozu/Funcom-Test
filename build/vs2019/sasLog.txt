@@ -1,0 +1,17 @@
+RTPool: creating new depth buffer. 711007676
+RTPool: creating new depth buffer. 711007676
+RTPool: creating new depth buffer. 711007676
+RTPool: creating new render target. -700809656
+RTPool: creating new render target. 188791762
+RTPool: creating new render target. 188791762
+RTPool: creating new render target. 360864153
+RTPool: creating new render target. 360864153
+RTPool: creating new render target. 687881106
+RTPool: creating new render target. -694442418
+RTPool: creating new render target. -1034193847
+RTPool: creating new render target. -1034193847
+RTPool: creating new render target. 791849535
+RTPool: creating new render target. 643134473
+RTPool: creating new render target. -1034193847
+RTPool: creating new render target. -1034193847
+RTPool: creating new render target. 360864153

@@ -1,0 +1,31 @@
+{
+	"file_dx11" : "default.fx",
+	"file_opengl" : "opengl/default.glsl",
+	"func_vs" : "main_vs",
+	"func_ps" : "main_ps",
+  "func_hs" : "main_hs",
+  "func_ds" : "main_ds",
+  "func_gs" : "main_gs",
+		
+	"ShaderFlags" : {
+		"DIFFUSE_MAP" : 1,
+    "DEBUG_DIFFUSE" : 1,
+    "TESSELLATION" : 1,
+    "PHONG_SMOOTHING" : 1,
+    "PNT_SMOOTHING" : 1,
+    "GEOM_SHADER" : 1,
+    "HAS_TANGENT" : 1,
+	  "HAS_BONE_DATA" : 1,
+    "NORMAL_MAP" : 1,
+    "DEBUG_UVS" : 1,
+    "SPEC_MAP" : 1,
+    "MASK_MAP" : 1,
+    "OUTPUT_VELOCITY" : 1,
+    "GS_CUBE_OUTPUT" : 1,
+	  "CUBE_MAP" : 1,
+	  "HEIGHT_MAP" : 1,
+	  "MESH_ID" : 1,
+    "HAS_UVS" : 1,
+	"INSTANCED_XFMS" : 1
+	}
+}

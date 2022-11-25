@@ -1,0 +1,11 @@
+{
+	"file_dx11" : "renderFrustum.fx",
+	"file_opengl" : "opengl/renderFrustum.glsl",
+	"func_vs" : "main_vs",
+	"func_gs" : "main_gs",
+	"func_ps" : "main_ps",
+
+	"ShaderFlags" : {
+		
+	}
+}

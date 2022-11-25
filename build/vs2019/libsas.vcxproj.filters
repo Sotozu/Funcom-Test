@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libsas">
+      <UniqueIdentifier>{E3E86F0B-CF8A-9AE1-B845-AE35A4862132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\inc">
+      <UniqueIdentifier>{79E263A1-659A-A5EE-CEA1-7E4ABA7840DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src">
+      <UniqueIdentifier>{870D64A1-73C5-A5EE-DCCC-7E4AC8A340DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\animation">
+      <UniqueIdentifier>{233EBA6A-0FCD-4334-B8EB-572FA45954DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\editor">
+      <UniqueIdentifier>{EAAE3E34-56C5-3CCA-9F3C-C8EB0B920D52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\platform">
+      <UniqueIdentifier>{08EB9DBA-744C-7BC8-FDB9-C17A691AB287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\platform\posix">
+      <UniqueIdentifier>{9738B878-03FB-EB02-4CAB-7A8FB8ACC4E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\platform\win32">
+      <UniqueIdentifier>{577D3379-C33F-6703-0CF0-F58F78F13FE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render">
+      <UniqueIdentifier>{2350A652-8F66-A4E8-D8DD-2F0A44337570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\compositePass">
+      <UniqueIdentifier>{0906BCB1-75E9-CAF1-7EEC-F82DEA4E9142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\debug">
+      <UniqueIdentifier>{46DD3DCE-B214-8665-BB1E-EA8827D5AC5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\dx11">
+      <UniqueIdentifier>{3D8776DF-2981-9F31-12EE-3542FE86059E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\gui">
+      <UniqueIdentifier>{24E2FBDF-904E-B7DA-5942-4F38C56DD942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\lights">
+      <UniqueIdentifier>{CAB5EDA8-B6DA-3C29-DF25-22B9CBA93B47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\motionBlur">
+      <UniqueIdentifier>{6A947030-564F-60DC-FF06-D926EBA0AA6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\postAA">
+      <UniqueIdentifier>{27ACB5B2-13D1-0433-3C1C-EAC228A00351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\profiling">
+      <UniqueIdentifier>{49171D84-B524-4B6A-3E0B-4755AA171721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\shaders">
+      <UniqueIdentifier>{A9EBB7DE-15AE-EB68-5E5E-7AF5CA5FC446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\shadows">
+      <UniqueIdentifier>{D816B8DE-44D9-EB68-8D89-7AF5F98AC446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\render\Visibility">
+      <UniqueIdentifier>{E77FBA0D-D33A-AAB9-7CF2-2204688CF449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\resource">
+      <UniqueIdentifier>{CB90F4A1-37F2-D1AF-C05F-18622CC0086F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libsas\src\utils">
+      <UniqueIdentifier>{940C9148-8005-B09A-A937-951F958F8FA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rsc">
+      <UniqueIdentifier>{0DA7880B-79B0-887C-022C-9F7C6E34947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rsc\shaders">
+      <UniqueIdentifier>{938C4FA1-FF41-C896-8836-C26DF4EABE9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\rsc\shaders\compositePass.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\compositePass.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\debugVolTexSlice.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\debugVolTexSlice.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\default.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\default.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\deferredShadows.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\deferredShadows.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\depthDownsample.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\depthDownsample.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\destrParticles.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\destrParticles.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\fxaa.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\fxaa.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\globalConstants.inc">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\globals.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\godrays.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\godrays.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\lightPass.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\lightPass.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\motionBlur.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\motionBlur.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\ovrDistortion.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\ovrDistortion.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\renderFrustum.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\renderFrustum.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\renderLine.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\renderLine.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\screenCopy.fx">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\screenCopy.txt">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\shadows.inc">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\stereo.inc">
+      <Filter>rsc\shaders</Filter>
+    </None>
+    <None Include="..\..\rsc\shaders\utils.inc">
+      <Filter>rsc\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libsas\inc\sas_export.h">
+      <Filter>libsas\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\inc\sas_main.h">
+      <Filter>libsas\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\sas_core.h">
+      <Filter>libsas\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\sas_pch.h">
+      <Filter>libsas\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\animation\sas_animation.h">
+      <Filter>libsas\src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\animation\sas_skeleton.h">
+      <Filter>libsas\src\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\editor\sas_editor.h">
+      <Filter>libsas\src\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\platform\posix\sas_cmp.h">
+      <Filter>libsas\src\platform\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\platform\win32\sas_cmp.h">
+      <Filter>libsas\src\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_constantbuffer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_depthbuffer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_geometry.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_gputimer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_indexbuffer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_indirectargsbuffer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_instance.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_material.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_mesh.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_miscresources.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_renderlist.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_rendermng.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_rendertarget.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_rendertargetpool.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_rendertypes.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_settings.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_stats.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_stereo.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_structuredbuffer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_texture.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_vertexbuffer.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\sas_vertexformat.h">
+      <Filter>libsas\src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\compositePass\sas_compositePass.h">
+      <Filter>libsas\src\render\compositePass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\debug\sas_debugmng.h">
+      <Filter>libsas\src\render\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\debug\sas_debugrender.h">
+      <Filter>libsas\src\render\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\debug\sas_debugutilities.h">
+      <Filter>libsas\src\render\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_buffer.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_common.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_depthbuffer.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_factory.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_gputimer.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_inputlayoutcache.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_object.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_rendertarget.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_shader.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_statebuffercache.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_texture.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\dx11\sas_device_typeconversion.h">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\gui\sas_gui.h">
+      <Filter>libsas\src\render\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\lights\sas_light.h">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\lights\sas_lightmng.h">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\lights\sas_lightpass.h">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\lights\sas_lightpass_cs.h">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\lights\sas_lightpass_ps.h">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\lights\sas_volumetricLight.h">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\motionBlur\sas_motionBlur.h">
+      <Filter>libsas\src\render\motionBlur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\postAA\sas_postaa.h">
+      <Filter>libsas\src\render\postAA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\profiling\sas_cpuprofiler.h">
+      <Filter>libsas\src\render\profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\profiling\sas_gpuprofiler.h">
+      <Filter>libsas\src\render\profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\shaders\sas_shaderfamily.h">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\shaders\sas_shaderflags.h">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\shaders\sas_shaderids.h">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\shaders\sas_shadermng.h">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\shadows\sas_shadowmng.h">
+      <Filter>libsas\src\render\shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\shadows\sas_spotshadowpool.h">
+      <Filter>libsas\src\render\shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\Visibility\sas_drawlist.h">
+      <Filter>libsas\src\render\Visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\render\Visibility\sas_visibility.h">
+      <Filter>libsas\src\render\Visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_assimp_loader.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_camerapath.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_modelinstance.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_model_loader.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_model_resource.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_resource.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_resourceloader.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_resourcemng.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_splashscreen.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_texture_loader.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\resource\sas_texture_resource.h">
+      <Filter>libsas\src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\utils\sas_cameramng.h">
+      <Filter>libsas\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libsas\src\utils\sas_pix.h">
+      <Filter>libsas\src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rsc\shaders\Fxaa3_11.h">
+      <Filter>rsc\shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libsas\src\sas_core.cpp">
+      <Filter>libsas\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\sas_main.cpp">
+      <Filter>libsas\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\sas_pch.cpp">
+      <Filter>libsas\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\animation\sas_animation.cpp">
+      <Filter>libsas\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\animation\sas_skeleton.cpp">
+      <Filter>libsas\src\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\editor\sas_editor.cpp">
+      <Filter>libsas\src\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\platform\posix\sas_cmp.cpp">
+      <Filter>libsas\src\platform\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\platform\win32\sas_cmp.cpp">
+      <Filter>libsas\src\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_constantbuffer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_depthbuffer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_geometry.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_gputimer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_indexbuffer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_indirectargsbuffer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_instance.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_material.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_mesh.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_miscresources.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_renderlist.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_rendermng.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_rendertarget.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_rendertargetpool.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_settings.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_stats.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_stereo.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_structuredbuffer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_texture.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_vertexbuffer.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\sas_vertexformat.cpp">
+      <Filter>libsas\src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\compositePass\sas_compositePass.cpp">
+      <Filter>libsas\src\render\compositePass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\debug\sas_debugmng.cpp">
+      <Filter>libsas\src\render\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\debug\sas_debugrender.cpp">
+      <Filter>libsas\src\render\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\debug\sas_debugutilities.cpp">
+      <Filter>libsas\src\render\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_buffer.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_depthbuffer.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_factory.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_gputimer.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_inputlayoutcache.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_rendertarget.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_shader.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_statebuffercache.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_texture.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\dx11\sas_device_typeconversion.cpp">
+      <Filter>libsas\src\render\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\gui\sas_gui.cpp">
+      <Filter>libsas\src\render\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\lights\sas_light.cpp">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\lights\sas_lightmng.cpp">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\lights\sas_lightpass.cpp">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\lights\sas_lightpass_cs.cpp">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\lights\sas_lightpass_ps.cpp">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\lights\sas_volumetricLight.cpp">
+      <Filter>libsas\src\render\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\motionBlur\sas_motionBlur.cpp">
+      <Filter>libsas\src\render\motionBlur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\postAA\sas_postaa.cpp">
+      <Filter>libsas\src\render\postAA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\profiling\sas_cpuprofiler.cpp">
+      <Filter>libsas\src\render\profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\profiling\sas_gpuprofiler.cpp">
+      <Filter>libsas\src\render\profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\shaders\sas_shaderfamily.cpp">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\shaders\sas_shaderflags.cpp">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\shaders\sas_shaderids.cpp">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\shaders\sas_shadermng.cpp">
+      <Filter>libsas\src\render\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\shadows\sas_shadowmng.cpp">
+      <Filter>libsas\src\render\shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\shadows\sas_spotshadowpool.cpp">
+      <Filter>libsas\src\render\shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\render\Visibility\sas_visibility.cpp">
+      <Filter>libsas\src\render\Visibility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_assimp_loader.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_camerapath.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_modelinstance.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_model_loader.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_model_resource.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_resource.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_resourcemng.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_splashscreen.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_texture_loader.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\resource\sas_texture_resource.cpp">
+      <Filter>libsas\src\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\utils\sas_cameramng.cpp">
+      <Filter>libsas\src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libsas\src\utils\sas_pix.cpp">
+      <Filter>libsas\src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

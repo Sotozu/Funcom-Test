@@ -1,0 +1,9 @@
+{
+	"file_dx11" : "compositePass.fx",
+	"file_opengl" : "opengl/compositePass.glsl",
+	"func_vs" : "main_vs",
+	"func_ps" : "main_ps",
+		
+	"ShaderFlags" : {
+	}
+}
